@@ -17,7 +17,7 @@
     <properties>
         <java.version>11</java.version>
         <lombok.version>1.18.22</lombok.version>
-        <postgresql.version>42.5.4</postgresql.version>
+        <postgresql.version>42.5.5</postgresql.version>
     </properties>
     <dependencies>
         <dependency>
@@ -57,7 +57,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>28.2-android</version>
+            <version>32.0.0-android</version>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
