@@ -1,8 +1,8 @@
-package com.alvonellos.vaultemulator.service;
+package com.fellowship.gandalfd.service;
 
-import com.alvonellos.vaultemulator.model.VaultEntity;
-import com.alvonellos.vaultemulator.model.request.VaultRequest;
-import com.alvonellos.vaultemulator.repository.VaultRepository;
+import com.fellowship.gandalfd.model.VaultEntity;
+import com.fellowship.gandalfd.model.request.VaultRequest;
+import com.fellowship.gandalfd.repository.VaultRepository;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;

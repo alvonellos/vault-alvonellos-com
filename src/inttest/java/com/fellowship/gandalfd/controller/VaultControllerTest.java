@@ -1,8 +1,8 @@
-package com.alvonellos.vaultemulator.controller;
+package com.fellowship.gandalfd.controller;
 
-import com.alvonellos.vaultemulator.model.request.VaultRequest;
-import com.alvonellos.vaultemulator.repository.VaultRepository;
-import com.alvonellos.vaultemulator.service.VaultService;
+import com.fellowship.gandalfd.model.request.VaultRequest;
+import com.fellowship.gandalfd.repository.VaultRepository;
+import com.fellowship.gandalfd.service.VaultService;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import java.util.Collections;
 
 import static org.mockito.Mockito.*;
-import static com.alvonellos.vaultemulator.mock.MockRequest.*;
+import static com.fellowship.gandalfd.mock.MockRequest.*;
 
 @SpringBootTest
 public class VaultControllerTest {

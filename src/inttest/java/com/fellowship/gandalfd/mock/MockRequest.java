@@ -1,6 +1,6 @@
-package com.alvonellos.vaultemulator.mock;
+package com.fellowship.gandalfd.mock;
 
-import com.alvonellos.vaultemulator.model.VaultEntity;
+import com.fellowship.gandalfd.model.VaultEntity;
 import org.springframework.http.HttpHeaders;
 
 import javax.servlet.*;

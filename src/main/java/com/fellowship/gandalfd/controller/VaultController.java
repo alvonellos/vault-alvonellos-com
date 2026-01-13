@@ -1,10 +1,10 @@
-package com.alvonellos.vaultemulator.controller;
+package com.fellowship.gandalfd.controller;
 
-import com.alvonellos.vaultemulator.model.VaultEntity;
-import com.alvonellos.vaultemulator.model.request.VaultRequest;
-import com.alvonellos.vaultemulator.model.response.ErrorResponse;
-import com.alvonellos.vaultemulator.repository.VaultRepository;
-import com.alvonellos.vaultemulator.service.VaultService;
+import com.fellowship.gandalfd.model.VaultEntity;
+import com.fellowship.gandalfd.model.request.VaultRequest;
+import com.fellowship.gandalfd.model.response.ErrorResponse;
+import com.fellowship.gandalfd.repository.VaultRepository;
+import com.fellowship.gandalfd.service.VaultService;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,11 +18,11 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @RestController
-@RequestMapping("${com.alvonellos.vault.vaultpath}")
+@RequestMapping("${com.fellowship.gandalf.vaultpath}")
 @Log
 public class VaultController implements InitializingBean {
 
-  @Value("${com.alvonellos.vault.vaultpath}")
+  @Value("${com.fellowship.gandalf.vaultpath}")
   String vaultPath;
 
   private final VaultRepository vaultRepository;
@@ -151,6 +151,6 @@ public class VaultController implements InitializingBean {
   public void afterPropertiesSet() throws Exception {
     log.info(
         String.format(
-            "Loaded from properties com.alvonellos.vaultemulator.vaultpath: %s", vaultPath));
+            "Loaded from properties com.fellowship.gandalfd.vaultpath: %s", vaultPath));
   }
 }

@@ -6,7 +6,7 @@
       <env name="VAULT_DATABASE_SECRET" value="iforgotallmypasswordsagain!!!!!!" />
     </envs>
     <module name="vault" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="com.alvonellos.vaultemulator.VaultemulatorApplication" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.fellowship.gandalfd.gandalfd" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

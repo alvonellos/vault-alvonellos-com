@@ -1,4 +1,4 @@
-package com.alvonellos.vaultemulator.model.response;
+package com.fellowship.gandalfd.model.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -11,7 +11,7 @@ import java.util.Collection;
  */
 public class ErrorResponse {
     @JsonProperty
-    ArrayList<String> errors = new ArrayList<>();
+    final ArrayList<String> errors = new ArrayList<>();
 
     public ErrorResponse() {   }
     public ErrorResponse(String message) {

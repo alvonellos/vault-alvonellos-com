@@ -1,7 +1,7 @@
-package com.alvonellos.vaultemulator.model;
+package com.fellowship.gandalfd.model;
 
-import com.alvonellos.vaultemulator.model.convertor.AttributeEncryptor;
-import com.alvonellos.vaultemulator.model.request.VaultRequest;
+import com.fellowship.gandalfd.model.convertor.AttributeEncryptor;
+import com.fellowship.gandalfd.model.request.VaultRequest;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;

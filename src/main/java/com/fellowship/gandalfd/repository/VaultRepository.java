@@ -1,6 +1,6 @@
-package com.alvonellos.vaultemulator.repository;
+package com.fellowship.gandalfd.repository;
 
-import com.alvonellos.vaultemulator.model.VaultEntity;
+import com.fellowship.gandalfd.model.VaultEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
